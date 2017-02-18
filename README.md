@@ -1,6 +1,6 @@
 ## About
 The **tdls** utility is short for **T**o **D**o **L**i**S**t (i.e. **tdls**).
-**tdls** is a branch of the [sched](https://raginttiger.github.io/sched/)
+It is a branch of the [sched](https://raginttiger.github.io/sched/)
 utilisty, except that it creates a `.todolist` file in the current working
 directory, and not the home directory (like [sched](https://raginttiger.github.io/sched/) does).
 
