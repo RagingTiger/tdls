@@ -6,7 +6,8 @@ directory, and not the home directory (like [sched](https://raginttiger.github.i
 
 ## Installation
 To configure your environment to use the script follow the below steps. First
-clone and cd into the **tdls** repository:
+follow the instructions for downloading and installing [ShellLib](https://github.com/RagingTiger/ShellLib) and then clone and cd into
+the **tdls** repository:
 
 ```
 git clone https://github.com/RagingTiger/tdls
@@ -16,8 +17,8 @@ cd tdls/
 Next you're going to append the shell script path to your .bashrc or .zshrc:
 
 ```
-echo "# alias for tdls" >> "$HOME/.`basename $SHELL`rc"
-echo "alias tdls=$PWD/tdls.sh" >> "$HOME/.`basename $SHELL`rc"
+printf "\n# alias for tdls" >> "$HOME/.`basename $SHELL`rc"
+printf "\nalias tdls=$PWD/tdls.sh" >> "$HOME/.`basename $SHELL`rc"
 source "$HOME/.`basename $SHELL`rc"
 ```
 
